@@ -1,0 +1,49 @@
+Build the project
+
+sudo npm init
+npm i express body-parser mongoose concurrently
+npm i -D nodemon
+add server config in package.json
+create file server.js
+use mLab MongoDB and add user kleber - kleber123
+create a folder config and create a file called keys.js to insert mLab MongoDB user and password
+add MongoDB conection in server.js
+run with npm run server
+
+create a folder called models
+create a file called Items.js and configure the model
+
+create a folder called routes and create another folder called api
+create a file called items.js
+
+// Front End
+create a folder called client
+create-react-app
+configure package.json in cliente folder
+
+configure concurrently in package.json
+npm run dev to run both of servers (front and back end)
+delete logo.svg and index.css from client folder
+install bootstrap npm i bootstrap reactstrap uuid react-transition-group
+
+create a AppNavbar component in client folder (react) and insert it in App.js
+create a ShoppingList.js file in conponent folder
+
+install react-redux
+npm i redux react-redux redux-thunk
+create a file called store.js
+add code Providers in App.js
+create a folder called reducers in client/src folder and create a index.js file inside
+create a file called itemReducer.js
+create a folder called actions in src folder and create a types.js file
+
+import in itemReducer the consts of types.js
+create a file called itemActions.js
+create in component folder a file called ItemModal.js
+
+install axios
+npm i axios
+
+build the react app from client folder
+npm run build
+
