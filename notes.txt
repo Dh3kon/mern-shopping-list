@@ -47,3 +47,12 @@ npm i axios
 build the react app from client folder
 npm run build
 
+make login in Heroku via Heroku CLI
+heroku create
+
+git init
+git add .
+git commit -am ""
+heroku git:remote -a <server-name>
+git push heroku master
+
